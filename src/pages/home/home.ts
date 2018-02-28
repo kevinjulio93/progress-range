@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+    selector: 'page-home',
+    templateUrl: 'home.html'
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
-
-  }
+    subAreas = [
+        { title: 'Earnings', score: 6, color: '#98c276' },
+        { title: 'Investment', score: 3, color: '#98c276' },
+        { title: 'Savings', score: 4, color: '#98c276' }
+    ];
 
 }

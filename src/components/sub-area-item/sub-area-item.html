@@ -1,0 +1,17 @@
+<ion-item-group no-lines>
+    <ion-list-header no-lines>
+        {{ title }}
+        <button ion-button icon-only clear item-end (click)="clickEdit()">
+            <ion-icon class="fa fa-pencil-square-o"></ion-icon>
+        </button>
+        <button ion-button icon-only clear item-end (click)="clickDelete()">
+            <ion-icon class="fa fa-trash-o"></ion-icon>
+        </button>
+    </ion-list-header>
+    <progress-range
+        [color]="color"
+        [score]="score"
+        (scoreChange)="updateScore($event)"
+    ></progress-range>
+</ion-item-group>
+

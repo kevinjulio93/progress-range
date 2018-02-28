@@ -1,0 +1,28 @@
+sub-area-item {
+    .label-ios, .label-md {
+        font-size: 1.7rem;
+        font-weight: 400;
+        margin: 0 8px 0 0;
+        text-transform: none;
+        letter-spacing: normal;
+    }
+    .range-ios, .range-md {
+        padding: 0 16px;
+    }
+    &.zebra {
+        ion-item-group, .item-ios, .item-md {
+            background-color: #F7FBFF;
+        }
+    }
+    button {
+        font-size: 85% !important;
+
+        &.button-ios, &.button-md {
+            margin-bottom: 0;
+        }
+
+        &.button-clear-ios, &.button-clear-md {
+            color: #9D9D9D;
+        }
+    }
+}

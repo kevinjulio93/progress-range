@@ -1,0 +1,8 @@
+<ion-range
+    item-content
+    [min]="min"
+    [max]="max"
+    debounce="10"
+    [ngModel]="score"
+    (ngModelChange)="updateScore($event)"
+></ion-range>
