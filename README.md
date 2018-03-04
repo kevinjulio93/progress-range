@@ -2,7 +2,7 @@
 
 ![Mock Up](src/assets/imgs/mockup.png)
 
-The objective of this project is predominantly style the ionic core `ion-range`
+The objective of this project is predominantly to style the ionic core `ion-range`
 component within the `progress-range` component.
 
 This component is used by the `sub-area-item` component which shouldn't require
