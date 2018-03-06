@@ -8,7 +8,23 @@ sub-area-item {
     }
     .range-ios, .range-md {
         padding: 0 16px;
+        .range-knob{
+            height: 20px;
+            width: 20px;
+            top: 14.5px;
+            background: #f4f4f8;
+            border: 2px solid #C8CFD8;
+        }
+        .range-bar{
+            border-radius:25px;
+            background: #f4f4f4;
+        } 
+        .range-bar-active{
+            background: #98C276;
+        }    
+   
     }
+   
     &.zebra {
         ion-item-group, .item-ios, .item-md {
             background-color: #F7FBFF;
@@ -25,4 +41,6 @@ sub-area-item {
             color: #9D9D9D;
         }
     }
+
+   
 }
